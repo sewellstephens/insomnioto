@@ -1,55 +1,28 @@
-# Insomnium API Client
-
-*\<currently not being actively maintained>*
+# Insomnioto API Client
  
-Insomnium is a 100% local and privacy-focused open-source API client for testing GraphQL, REST, WebSockets, Server-sent events and gRPC in development/production.
+Insomnioto is a 100% local and web based service privacy-focused open-source API client for testing GraphQL, REST, WebSockets, Server-sent events and gRPC in development/production.
 
-- ✅ works 100% offline, the way a local testing tool should behave <br>
-- ✅ no cloud services, no tracking/communication to external servers behind the scene <br>
-
-[![license](https://img.shields.io/github/license/archGPT/insomnium.svg)](LICENSE)
-[![GitHub Discussions](https://img.shields.io/github/discussions/archGPT/insomnium)](https://github.com/ArchGPT/insomnium/discussions)
-[![join our discord](https://dcbadge.vercel.app/api/server/pCcWcncwkw?style=flat&compact=true)](https://discord.gg/pCcWcncwkw)
-
-![Insomnium API Client](https://raw.githubusercontent.com/ArchGPT/insomnium/main/screenshots/v0.1.png)
-
-## Current Status
-
-Due to another related project, this repo is no longer being actively maintained. (You are welcomed to fork this and continue from here on)
-
-## General
-
-I have removed user login, tracking, analytics, etc, from Insomnia so it is now a 100% local app. (And runs faster!)
+![Insomnioto API Client](https://raw.githubusercontent.com/ArchGPT/insomnium/main/screenshots/v0.1.png)
 
 
 ## Download
 
-Insomnium is available for Mac, Windows, Ubuntu, Debian, CentOS, Fedora and [can be downloaded here](https://github.com/ArchGPT/insomnium/releases). Insomnium is also [available on AUR for ArchLinux](https://aur.archlinux.org/packages/insomnium-bin). 
+Insomnioto is available for Mac, Windows, Ubuntu, Debian, CentOS, Fedora and [can be downloaded here](https://github.com/ArchGPT/insomnium/releases). Insomnium is also [available on AUR for ArchLinux](https://aur.archlinux.org/packages/insomnium-bin). 
 
-Alternatively, you can build Insomnium from source on your local machine using `npm run app-package`.
+Alternatively, you can use our web based client.
 
 
 ## Backstory
 
-Insomnium is a fork of [Kong/insomnia at 2023.5.8](https://github.com/ArchGPT/insomnia), the last commit before compulsory account login was introduced. In a sense, Insomnium is a community response to [the latest product update that forces account creation w/o warning](https://news.ycombinator.com/item?id=37680522).
+Insomnioto is a fork of [ArchGPT/insomnium] is a fork of [Kong/insomnia at 2023.5.8](https://github.com/ArchGPT/insomnia), the last commit before compulsory account login was introduced. In a sense, Insomnium is a community response to [the latest product update that forces account creation w/o warning](https://news.ycombinator.com/item?id=37680522).
 
 ![HN](https://github.com/ArchGPT/insomnium/blob/main/hn.png?raw=true)
 
 I was among the users who were deeply affected by the recent change. I still think Insomnia is a nice product in general, but I have to disagree with the direction it is going. So I have decided to fork it and make it 100% local and privacy-focused.
 
-> *I choose to walk in shades.* <br>
-> *Hearken now, to the song of dusk* <br>
-> *The forest venerates your name* <br> 
->--- [Insomnium, song of the dusk](https://youtu.be/nTIDh1miBSc)
+## Develop Insomnioto
 
-
-## Migration from Insomnia
-
-You can use the GUI (under `Preferences/Data`) or directly e.g. for linux `cp -r ~/.config/Insomnia ~/.config/Insomnium`. [For MacOS and Windows, you can read more here](https://archgpt.dev/insomnium/migration-guide). Feel free to open an issue/discussion if anything weird happens.
-
-## Develop Insomnium
-
-Development on Insomnium can be done on Mac, Windows, or Linux as long as you have [Node.js](https://nodejs.org) and [Git](https://git-scm.com/). See the `.nvmrc` file located in the project for the correct Node version.
+Development on Insomnioto can be done on Mac, Windows, or Linux as long as you have [Node.js](https://nodejs.org) and [Git](https://git-scm.com/). See the `.nvmrc` file located in the project for the correct Node version.
 
 <details>
 <summary>Initial Dev Setup</summary>
