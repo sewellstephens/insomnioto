@@ -1,6 +1,6 @@
 # Insomnioto API Client
  
-Insomnioto is a 100% local and web based service privacy-focused open-source API client for testing GraphQL, REST, WebSockets, Server-sent events and gRPC in development/production.
+Insomnioto is a 100% local and web based (coming soon) service privacy-focused open-source API client for testing GraphQL, REST, WebSockets, Server-sent events and gRPC in development/production.
 
 ![Insomnioto API Client](https://raw.githubusercontent.com/ArchGPT/insomnium/main/screenshots/v0.1.png)
 
@@ -14,7 +14,7 @@ Alternatively, you can use our web based client.
 
 ## Backstory
 
-Insomnioto is a fork of [ArchGPT/insomnium] is a fork of [Kong/insomnia at 2023.5.8](https://github.com/ArchGPT/insomnia), the last commit before compulsory account login was introduced. In a sense, Insomnium is a community response to [the latest product update that forces account creation w/o warning](https://news.ycombinator.com/item?id=37680522).
+Insomnioto is a fork of [ArchGPT/insomnium](https://github.com/ArchGPT/insomnium) is a fork of [Kong/insomnia at 2023.5.8](https://github.com/Kong/insomnia), the last commit before compulsory account login was introduced. In a sense, Insomnioto is a community response to [the latest product update that forces account creation w/o warning](https://news.ycombinator.com/item?id=37680522).
 
 ![HN](https://github.com/ArchGPT/insomnium/blob/main/hn.png?raw=true)
 
